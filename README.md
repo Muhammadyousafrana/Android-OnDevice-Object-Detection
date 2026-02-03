@@ -230,8 +230,3 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 Maintainer: Muhammadyousafrana  
 Project URL: https://github.com/Muhammadyousafrana/Android-OnDevice-Object-Detection
-
-If you want, I can:
-- Add example screenshots and GIFs to the README (if you provide images).
-- Add a sample `build.gradle` snippet with the inference runtime dependency if you tell me which runtime/library you intend to use (e.g., TFLite, TensorFlow Lite Task Library, Google Edge/ Lite runtime).
-- Create a CONTRIBUTING.md or ISSUE/PR templates.
