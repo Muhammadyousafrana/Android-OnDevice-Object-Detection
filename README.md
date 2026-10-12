@@ -1,5 +1,9 @@
 # Android-OnDevice-Object-Detection
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80" alt="Android device camera used for real-time object detection" width="900" />
+</p>
+
 An Android application demonstrating real-time on-device object detection using a locally bundled deep learning model (YOLO-style). The model runs inside the app (no network required), enabling offline inference, low latency, and improved privacy.
 
 Repository: [Muhammadyousafrana/Android-OnDevice-Object-Detection](https://github.com/Muhammadyousafrana/Android-OnDevice-Object-Detection)  
@@ -95,7 +99,7 @@ Note: Verify the model's expected output layout (number of detections, channel o
 - Android SDK + emulator or a physical Android device with camera (for Camera mode)
 - JDK (compatible version for the chosen Android Gradle Plugin)
 - Gradle (use project Gradle wrapper)
-- Ensure any native/runtime dependencies for the chosen model runtime are present. The code imports a runtime class `CompiledModel` (see `ModelHelper.kt`) — make sure the corresponding runtime dependency / artifact (Edge runtime / Lite runtime artifact) is configured in Gradle if required.
+- Ensure any native/runtime dependencies for the chosen model runtime are present. The code imports a runtime class `CompiledModel` (see `ModelHelper.kt`) — make sure the corresponding runtime dependency is available.
 
 ---
 
